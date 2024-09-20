@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/barbearia2.1/img/fundo.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.caixa-mae {
+    width: 100%;
+    padding: 30px 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    background-color: rgba(1, 3, 3, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.caixa h1 {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.caixa-mae-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.caixa-1 {
+    background-color: rgba(90, 60, 134, 0.9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 17px;
+    height: 500px;;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.caixa-1:hover {
+    transform: scale(1.05);
+}
+
+.imagem-1 {
+    margin-right: 20px;
+}
+
+.imagem-1-1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.conteudo h2 {
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.conteudo p {
+    color: #ddd;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.button-1 {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-whatsapp {
+    background-color: #25D366;
+    color: #fff;
+}
+
+.btn-instagram {
+    background-color: #E1306C;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .caixa-1 {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        margin: 10px 0;
+    }
+
+    .imagem-1 {
+        margin: 0 0 20px 0;
+    }
+
+    .imagem-1-1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 769px) {
+    .caixa-1 {
+        width: 700px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .caixa-1 {
+        width: 900px;
+    }
+}
+
+h3{
+    color: #ddd;
+}
+
+
